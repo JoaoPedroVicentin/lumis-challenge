@@ -22,7 +22,7 @@ export function Card({ pokemon }: ICardProps) {
           alt={pokemon.name}
           onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
             const target = e.target as HTMLImageElement
-            target.src = 'public/assets/fallback-pokemon.svg'
+            target.src = '/assets/fallback-pokemon.svg'
           }}
         />
         <h3 className="text-theme-blue-100">
