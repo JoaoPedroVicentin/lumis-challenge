@@ -5,4 +5,16 @@
   :root {
     --radius: 0.5rem
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-theme-gray-50;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-theme-gray-100;
+  }
 }

@@ -1,10 +1,10 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createBrowserRouter, RouteObject } from 'react-router-dom'
 
 import { AppLayout } from './pages/_layouts/app'
 import { NotFound } from './pages/404'
 import { Home } from './pages/home'
 
-const routes = [
+const routes: RouteObject[] = [
   {
     path: '/',
     element: <AppLayout />,
