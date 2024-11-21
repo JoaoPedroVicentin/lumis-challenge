@@ -17,7 +17,8 @@ export function Card({ pokemon }: ICardProps) {
       </div>
       <div className="flex flex-col items-center gap-2">
         <img
-          className="aspect-square w-36"
+          width={145}
+          height={145}
           src={pokemon.img}
           alt={pokemon.name}
           onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
